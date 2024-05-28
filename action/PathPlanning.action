@@ -1,0 +1,13 @@
+# PathPlanning.action
+
+# Goal
+geometry_msgs/Point goal
+bool isStart
+
+---
+# Result
+bool success
+
+---
+# Feedback
+string percentage_complete
