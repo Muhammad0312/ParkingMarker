@@ -51,48 +51,8 @@ class PaintLines{
                         ROS_INFO("Action did not finish before the time out.");
                     }
                 }
-                // ROS_INFO("Sending goal.");
-                // ac.sendGoal(goal);
-
-                // bool finished_before_timeout = ac.waitForResult(ros::Duration(120.0));
-
-                // if(finished_before_timeout){
-                //     actionlib::SimpleClientGoalState state = ac.getState();
-                //     ROS_INFO("Action finished: %s", state.toString().c_str());
-                // }else{
-                //     ROS_INFO("Action did not finish before the time out.");
-                // }
             }
 
-            // std::vector<robotpainting::PathPlanningGoal> goals;
-            // robotpainting::PathPlanningGoal goal1;
-            // goal1.goal.x = -2.0;
-            // goal1.goal.y = 0.0;
-            // goals.push_back(goal1);
-
-            // robotpainting::PathPlanningGoal goal2;
-            // goal2.goal.x = -3.0;
-            // goal2.goal.y = 0.0;
-            // goals.push_back(goal2);
-
-            // robotpainting::PathPlanningGoal goal3;
-            // goal3.goal.x = -3.0;
-            // goal3.goal.y = 1.0;
-            // goals.push_back(goal3);
-
-            // for(robotpainting::PathPlanningGoal goal: goals){
-            //     ROS_INFO("Sending goal.");
-            //     ac.sendGoal(goal);
-
-            //     bool finished_before_timeout = ac.waitForResult(ros::Duration(120.0));
-
-            //     if(finished_before_timeout){
-            //         actionlib::SimpleClientGoalState state = ac.getState();
-            //         ROS_INFO("Action finished: %s", state.toString().c_str());
-            //     }else{
-            //         ROS_INFO("Action did not finish before the time out.");
-            //     }
-            // }
             ROS_INFO("All goals are done.");
 
         }
